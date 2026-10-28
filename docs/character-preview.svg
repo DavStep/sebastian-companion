@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420">
+ <defs>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C05BFF"/><stop offset=".5" stop-color="#A72CF1"/><stop offset="1" stop-color="#7921CC"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#FFD980" stop-opacity=".7"/><stop offset="1" stop-color="#FFD980" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="720" height="420" rx="32" fill="#111015"/>
+ <text x="36" y="48" fill="#C4A0FF" font-family="sans-serif" font-size="12" letter-spacing="2">SEBASTIAN COMPANION</text>
+ <text x="36" y="83" fill="#F7F1FF" font-family="sans-serif" font-size="27" font-weight="bold">A little presence. A familiar expression.</text>
+ <g transform="translate(243 92)">
+  <ellipse cx="122" cy="211" rx="68" ry="9" fill="#211429"/>
+  <path d="M65 67C64 40 88 34 106 46C123 37 147 45 157 57C182 49 198 71 187 91C208 111 204 129 190 138C206 158 191 184 171 182C162 182 169 202 157 204L137 193C122 204 107 195 94 194C87 219 70 208 71 193C45 201 44 176 49 160C34 144 40 128 46 119C18 95 41 75 65 67Z" fill="url(#purple)"/>
+  <ellipse cx="92" cy="60" rx="20" ry="7" fill="#EDD9FF" opacity=".14"/>
+  <g fill="#2C123B"><rect x="70" y="99" width="29" height="8" rx="4"/><ellipse cx="85" cy="113.5" rx="7" ry="10.5"/><rect x="126" y="99" width="29" height="8" rx="4"/><ellipse cx="141" cy="113.5" rx="7" ry="10.5"/></g>
+  <g fill="#D993FF"><circle cx="87" cy="112" r="2.3"/><circle cx="143" cy="112" r="2.3"/></g>
+  <circle cx="198" cy="42" r="25" fill="url(#glow)"/><circle cx="198" cy="39" r="10" fill="#FFD27B"/><rect x="193" y="46" width="10" height="9" rx="2" fill="#F8E6BC"/><rect x="193" y="54" width="10" height="4" fill="#927558"/>
+ </g>
+ <rect x="250" y="319" width="220" height="64" rx="22" fill="#1D1924" stroke="#342B40"/>
+ <text x="360" y="345" text-anchor="middle" fill="#F7F1FF" font-family="sans-serif" font-size="19">Sebastian</text>
+ <text x="360" y="367" text-anchor="middle" fill="#B7ABCA" font-family="sans-serif" font-size="12">Thinking · animation preview</text>
+ <text x="36" y="402" fill="#B7ABCA" font-family="sans-serif" font-size="11">Original procedural artwork. Design export; not an Android runtime screenshot.</text>
+</svg>

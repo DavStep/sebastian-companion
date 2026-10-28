@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries><package android:name="com.openai.chatgpt"/><intent><action android:name="android.intent.action.TTS_SERVICE"/></intent></queries>
+    <application android:allowBackup="false" android:dataExtractionRules="@xml/data_extraction_rules" android:label="Sebastian" android:icon="@drawable/ic_sebastian" android:theme="@style/AppTheme" android:supportsRtl="true">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <activity android:name=".OpenChatActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:name=".SebastianWidget" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/sebastian_widget"/>
+        </receiver>
+    </application>
+</manifest>
