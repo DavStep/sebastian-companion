@@ -1,5 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="8dp" android:background="@drawable/widget_background">
-    <ImageView android:id="@+id/widget_pet" android:layout_width="96dp" android:layout_height="96dp" android:src="@drawable/ic_sebastian" android:contentDescription="@string/pet_description"/>
+    <ImageView android:id="@+id/widget_pet" android:layout_width="96dp" android:layout_height="0dp" android:layout_weight="1" android:scaleType="fitCenter" android:src="@drawable/ic_sebastian" android:contentDescription="@string/pet_description"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:textColor="#FAF7FF" android:textSize="18sp"/>
     <TextView android:id="@+id/widget_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disconnected" android:textColor="#C8BBD8" android:textSize="12sp" android:gravity="center" android:maxLines="2"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_chat" android:textColor="#C6A4FF" android:textSize="11sp" android:paddingTop="4dp"/>

@@ -2,6 +2,10 @@
 
 An independent native Android companion prototype: a purple animated character, a home-screen widget, and a shortcut to ChatGPT. **This is not the current Codex/ChatGPT assistant running on your phone.**
 
+![Original character design export](docs/character-preview.svg)
+
+*Design export of the procedural artwork, not a runtime screenshot.*
+
 ## Available in v0.1
 
 - Original procedural purple character, with idle breathing, blinking, thinking/lightbulb, speaking, happy, and resting expressions.
